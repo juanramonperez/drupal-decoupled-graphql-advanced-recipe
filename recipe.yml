@@ -145,19 +145,10 @@ config:
       simpleConfigUpdate:
         page.front: /home
     # Set and unset Gin blocks.
-    block.block.gin_admin:
-      simpleConfigUpdate:
-        status: false
-    block.block.gin_branding:
-      simpleConfigUpdate:
-        status: false
     block.block.gin_local_actions:
       simpleConfigUpdate:
         region: content
         weight: -10
-    block.block.gin_local_tasks:
-      simpleConfigUpdate:
-        status: false
     block.block.gin_page_title:
       simpleConfigUpdate:
         region: header
@@ -167,9 +158,6 @@ config:
         region: header
         weight: -5
         settings.secondary: true
-    block.block.gin_tools:
-      simpleConfigUpdate:
-        status: false
     # Update the admin theme to Gin in Theme settings.
     node.settings:
       simpleConfigUpdate:
